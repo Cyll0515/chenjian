@@ -3,7 +3,7 @@ package com.example.testproject.utils;
 import cn.hutool.core.lang.UUID;
 
 /**
- * uuid：工具类
+ * uuid获取工具类
  *
  * @author chenjian
  * @version V1
