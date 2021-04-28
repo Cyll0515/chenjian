@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD iBatis Mapper 3.0 //EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.testproject.mapper.SysLogMapper">
+
+    <insert id="addSysLog" useGeneratedKeys="true" keyProperty="logId">
+        INSERT INTO sys_log ( request_ip, request_uri, request_method, request_params, user_agent,
+            create_time)
+        VALUES ( #{requestIp}, #{requestUri}, #{requestMethod}, #{requestParams}, #{userAgent},
+            #{createTime})
+    </insert>
+
+</mapper>
