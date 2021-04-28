@@ -1,9 +1,9 @@
-package com.example.testproject;
+package com.example.testproject.utils;
 
 import cn.hutool.core.lang.UUID;
 
 /**
- * 描述
+ * uuid：工具类
  *
  * @author chenjian
  * @version V1
