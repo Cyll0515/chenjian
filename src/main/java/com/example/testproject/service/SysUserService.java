@@ -1,6 +1,6 @@
 package com.example.testproject.service;
 
-import com.example.testproject.UUidUtils;
+import com.example.testproject.utils.UUidUtils;
 import com.example.testproject.constant.BooleanConstants;
 import com.example.testproject.mapper.SysUserMapper;
 import com.example.testproject.model.SysUser;

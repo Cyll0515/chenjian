@@ -1,6 +1,5 @@
 package com.example.testproject.service;
 
-import com.example.testproject.mapper.StudentMapper;
 import com.example.testproject.mapper.SysLogMapper;
 import com.example.testproject.model.SysLog;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +19,7 @@ public class SysLogService {
     private SysLogMapper sysLogMapper;
 
 
-    public void addSysLog(SysLog sysLog){
+    public void addSysLog(SysLog sysLog) {
         sysLogMapper.addSysLog(sysLog);
     }
 
